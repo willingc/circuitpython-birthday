@@ -1,0 +1,11 @@
+# ReadTheDocs uses the `environment.yaml` so make sure to update that as well
+# if you change the dependencies of JupyterHub in the various `requirements.txt`
+name: birthday_cp
+channels:
+  - conda-forge
+dependencies:
+  - python=2.7
+  - requests
+  - jupyter
+  - pip:
+      - bs4
